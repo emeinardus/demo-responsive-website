@@ -1,0 +1,42 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /** Landing Page **/
+    h1 {
+        font-size: 4rem;
+    }
+
+    /** About **/
+    .about h2 {
+        font-size: 3rem;
+    }
+
+    .text {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .inner-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .image-container img{
+        height: 15rem;
+    }
+
+    /** Projects **/
+    
+    .projects h2 {
+        font-size: 3rem;
+    }
+    
+    .carousel {
+        width: 80%;
+    }
+    
+    .project-images {
+        display: flex;
+        gap: 1rem;
+        transition: transform 0.3s ease-in-out;
+    }
+  }

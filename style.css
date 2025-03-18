@@ -1,0 +1,143 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/** Navigation **/
+header, nav {
+    background-color: purple;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    height: fit-content;
+    font-size: 2rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.link-items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    padding-right: 1rem;
+}
+
+/** Landing Page **/
+.landing {
+    margin-top: 6rem;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 5rem;
+}
+
+/** About **/
+.about {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.text {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.inner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+/** Projects **/
+.projects {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects h2 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.project-images {
+    display: flex;
+    gap: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-images img {
+    width: 100%;
+    max-width: 30rem;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background-color: #ddd;
+}
